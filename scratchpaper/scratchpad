@@ -1,0 +1,101 @@
+scratchpad
+
+week 1 2200 we buy 1250 piece
+week 1 end we have 950
+
+week 2 2200 + 950 from last week 
+week 2 3150
+we buy 2250 piece
+week 2 end we have 900
+
+week 3 2200 + 900 from last week
+week 3 3100
+we buy nothing
+week 3 end we have 3100
+
+week 4 2200 + 3100 from last week
+week 4 5300
+we buy 3500 weapon
+we buy 1750 piece
+week 4 end we have 50
+
+
+
+
+ORR
+
+week 1 2200 we buy 1250 piece
+week 1 end we have 950
+
+week 2 2200 + 950 from last week 
+week 2 3150
+we buy 2250 piece
+week 2 end we have 900
+
+week 3 2200 + 900 from last week
+week 3 3100
+we buy 1750 piece
+week 3 end we have 1350
+
+week 4 2200 + 1350 from last week
+week 4 3550
+we buy 3500 weapon
+week 4 end we have 50
+
+
+ok silly case  with 4680 speding room   5980
+
+week 1 2230
+we buy 1750 piece
+week 1 end we have 480
+season total earned is now 5980
+
+week 2 2200 + 480 from last week
+week 2 2680
+we buy 2250 piece
+week 2 end we have 430
+season total earned is now 
+
+
+
+ok so lets say the number is 300
+
+and you have 
+12
+9
+7
+
+28
+
+38 7s 266
+
+42 7s 294
+
+
+
+armed with the knowledge of how much we want to save on average and thus
+how much we want to spend on average also armed with the knowledge of how many conquest points are available to us in a given week
+also armed with how much actual room to spend we have. 
+We can come up with an item to reccomend for each given week
+
+but there is still the problem of the first week
+
+
+
+we perform a nuber of calculations
+
+we calculate whether or not with that weeks current supply of conquest points  can be spent on the item
+
+can we afford it?
+
+we calculate the remainder after buying this item and seeing if the difference between this items remainder and our average wanted remainder is less than the same difference for any of the other 2 items.
+
+how close is its fit?
+
+
+how big of a deficit could you create with the current system?
+1249
+
+ok so when no one is logged in and you have blank fields it will be handled with post
+
+I think when you are logged in after clicking on a previous toon you simply get a new part where it acknowledges the name and then the fields filled in 

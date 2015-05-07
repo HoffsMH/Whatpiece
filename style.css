@@ -1,0 +1,210 @@
+a {
+	
+	color:#dddddd;
+}
+input[type='number'] {
+	width: 50px;
+	background-color: #444444;
+	border: none;
+	color: #dddddd;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-size: .8em;
+	font-weight: 100;
+	box-shadow: 3px 3px 10px #111111;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type='submit'] {
+	background-color: #444444;
+	border: none;
+	color: #dddddd;
+	font-size: .8em;
+	font-weight: 100;
+	box-shadow: 3px 3px 10px #111111;
+	width: 100px;
+	height: 50px;
+}
+input[type='reset'] {
+	background-color: #444444;
+	border: none;
+	color: #dddddd;
+	font-size: .5em;
+	font-weight: 100;
+	box-shadow: 3px 3px 10px #111111;
+	width: 50px;
+	height: 25px;
+}
+#wrapper {
+
+}
+#formwrapper {
+	background-color: #222222;
+	color: #aaaaaa;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-size: 1.5em;
+	font-weight: 100;
+	text-align: center;
+	float: left;
+	position: relative;
+	width: 45%;
+}
+#answer {
+	padding-left: 20px;
+	text-align: left;
+	
+}
+#minoranswer {
+	padding-left: 4px;
+	font-size: 16px;
+}
+#itemplan {
+	color: #aaaaaa;
+
+
+}
+#h2plan { 
+	margin-top: 50px;
+	text-align: left;
+
+}
+#itemplandata {
+	text-align: center;
+}
+#itemplanhead {
+	line-height: 80%; 
+}
+th {
+	padding: 10px;
+	border: solid;
+	border-width: 1px;
+	border-color: #ababab;
+}
+td {
+	border: solid;
+	border-width: 1px;
+	border-color: #ababab;
+}
+table {
+	border-collapse: collapse;
+}
+#weekfooter {
+	font-size: 11px;
+}
+#loginwrapper {
+	background-color: #222222;
+	color: #aaaaaa;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-size: 1em;
+	font-weight: 100;
+	text-align: center;
+	float: right;
+	position: relative;
+	width: 40%;
+
+
+}
+h2 {
+	margin: 0px;
+}
+#nomargin {
+	margin: 0px;
+}
+#headerwrapper {
+	background-color: #333333;
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	margin-bottom: -3.8px;
+	background-image: url('resources/header.jpg');
+	padding-right: 200px;
+	
+	color: #aaaaaa;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	overflow: hidden;
+
+}
+#headerinner {
+	width: 100%;
+	height: 90%;
+}
+#header {
+	margin-bottom: 10px;
+	margin-left: 10%;
+	display: inline-block;
+	position: relative;
+}
+#userplate {
+	height: 60px;
+	width: 100%;
+	background-color: #191919;
+	display: inline-block;
+	position: static;
+	color: #aaaaaa;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	
+	
+}
+#userplateright {
+	float: right;
+	padding-right: 10px;
+	padding-top: 15px;
+	
+	
+}
+#userplateright ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+#userplateright ul li {
+	display: inline;
+}
+#userplateright form {
+	display: inline;
+
+}
+#userplateright input[type='submit'] {
+	width: 50px;
+	height: 30px;
+
+
+}
+#userplateleft {
+	float: left;
+	color: #aaaaaa;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	margin-top: 15px;
+	padding-left: 5%;
+}
+#userplateleft input {
+	width: 400px;
+	height: 27px;
+	background-color: #444444;
+	border: none;
+	color: #dddddd;
+	font-family: 'Source Sans Pro', 'sans-serif';
+	font-size: 1.1em;
+	font-weight: 100;
+}
+
+#divider {
+	width: 3px;
+	border-radius: 1px;
+	height: 80%;
+	right:50%;
+	top: 180px;
+	background-color: #bbbbbb;
+	box-shadow: 3px 3px 10px #111111;
+	display: inline-block;
+	position: fixed;
+
+}
+body {
+	background-color: #222222;
+
+}

@@ -1,0 +1,143 @@
+<form action='result.php' method='POST'>
+	I currently have $Current conquest points. 
+	I have earned $Weeklyearned of my $WeeklyCap weekly cap and $Season season total. projected conquest cap for next week is $Cap,
+</form>
+ 
+the purpose of this page is to tell the use what the next item should be whether he or she should start saving and how early or late he or she can get weapons late in conquest points or late in weeks
+
+the output sentence could be something like
+
+You can afford to get one(1) neck cape or wrists this week after which you must start saving for weapons. With your projected conquest cap you will get weapons next week with blank conquest points to spare.
+
+you can not afford to get any other piece before saving for weapons. if you start saving now  You will be able to buy weapons when you are blank season season total
+
+
+ok so flow chart with 5 options
+
+your late
+
+you can get a 1250 piece
+
+you can 1750 piece 
+
+you can get a 2250 piece
+
+you can either get a 2250 piece and a 1250 piece next week or a 1750 piece and a 1750 piece next week
+
+
+
+after you spit out one of those 5 options
+
+you also calculate
+
+how many weeks until weapon (calculated with projected conquest cap)
+
+how much season total you will be at when you buy weapon
+
+how much over 7250  you will be when you buy weapon
+
+you are on schedule for the weapon
+
+you will get the weapon blank weeks later than you could have
+
+
+now for some pseudocode
+
+
+if (already spent > 3500) {
+	late
+}
+if (not already spent > 3500) {
+	 not late
+}
+
+Switch ($Season) {
+	case ($Season > 3500):
+
+}
+
+3* ? = 7250
+
+basic output sentence structure
+
+item reccomendation.how many weeks from now. on time or how late
+
+Can we glean any more useful information than that??
+
+
+even if you are behind we could output how big your projected conquest cap would have to be to get the item one week sooner
+
+okay so we calculate 7250 - conquest earned
+
+gives us the remaining
+we subrtract from the remaining anything that is left on current week 
+	if the current week does not push us to 0 then
+		we subtract the project cap and we keep subtracting the projected cap as we increment a timer
+
+$WeekCount = 0;
+$STweek[0] = $Seasontotal;
+$STSim = $Seasontotal;
+$Remaining = 7250 - $Seasontotal;
+
+if ($Weeklyearned < $WeeklyCa[]) {
+	$Thisweek = TRUE;
+} else {
+	$Thisweek = FALSE;
+}
+
+while ($Remaining > 0) {
+	if ($Thisweek === TRUE) {
+		$Remaining -= ($WeeklyCap - $Weeklyearned);
+		$STweek[$WeekCount] += ($WeeklyCap - $Weeklyearned)
+		$StSim = $STweek[$WeekCount];
+		$Thisweek = FALSE 
+	} else {
+		$Remaining -= $Cap;
+		$STweek[$WeekCount] = ($STweek[($Weekcount-1)] + $Cap);
+		STSim += $Cap;
+	}
+	$STweek[$WeekCount] = 
+	++ $WeekCount;
+
+}
+
+$Spent = $Seasontotal + $Current;
+
+if ($Spent > 3500) {
+	$Late = TRUE;
+} else {
+	$Late = FALSE;
+}
+
+if ((!Late)  AND ($Spent < 1250) {
+	|
+}
+if ((!Late) AND ($Spent == 1250) {
+	$ItemRec = 2250;
+}
+
+if ((!Late) AND ($Spent == 1750) {
+	$ItemRec = 1750;
+}
+if ((!Late) AND ($Spent == 2250) {
+	$ItemRec = 1250;
+}
+if ((!Late) AND ($Spent > 2250) {
+	$ItemRec = FALSE;
+}
+
+
+$seasontotalbyweek[] =
+
+
+ok so if WeeklyEarned > cap and
+
+is the difference between the average expected holdings  and the total spent > or < 1250
+
+
+KAY
+week 2
+had 4000 season total
+spent 3500 of it
+last weeks weekly remainder is 500
+this weeks available is $Cap + 500;

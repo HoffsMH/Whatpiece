@@ -1,0 +1,121 @@
+ok so game
+characters can equip items
+
+slots bracer wrist
+helm head
+
+better items
+bought with conq
+
+seasons everyone starts a season with 0 conq points earned
+players earn conquest points by playing games
+
+weekly cap
+it does not take the average player that long into the week to reach his weekly cap
+if he is fairly active. usually the average player can get his cap in under a day
+
+varies depending on rating
+rating increases and decreases as you win and lose games ranked games
+if you win more games vs better people you gain more rating than someone who does not.
+
+example of website that converts rating to cap
+
+rating only affect the cap of the following week
+
+remember how there are different slots?
+and how weapons increase effectivness
+
+weapons most valuable item
+they increase effectiveness  more than any other item
+
+at the begining of a season everyone wants to get weapon as fast as they can
+
+Weapons currently cost 3500
+
+but you have to wait till you have earned 7250 season total to buy weapons. so you can't buy them immeadiately
+
+generally the goal is to hit 3500 right as you hit
+
+you might say why not just spend 3750 then start saving
+
+7250 - 3500 = 3750
+
+remember how i said the average player can get his cap in under a day?
+usually players play for more than one day a week so if they have already reached their conquest for that week
+then they are playing to try to increase their rating
+remember a higher rating means a larger conquest cap next week.
+
+
+
+
+run very standard simulation and show why its not as simple
+
+I have 1800  Conquest Points.
+
+I have earned 1800  of my 2200  weekly cap and  season total.
+
+My Projected Conquest cap for next week is 2200 .
+
+
+
+so lets say week 1:
+we start off with 0 
+2200 cap
+we buy 1250 weapon
+we have 950 left over
+
+week 2:
+we start this week with the 950
+2200 cap
+we have 3150 to spend
+we buy 2250 piece
+we have 900 left over
+
+now if we wanted to get weapon the moment we hit 7250 conq pts season earned we would could not buy another item
+because we have already bought 3500  and the remaining 3500 we are going to earn has to be saved for the weapon.
+so lets talk about 2 different versions of the same following weeks
+
+
+
+	heres the Dumb Version
+	week 3:
+	we start this week with the 900 from week 2
+	2200 cap
+	we dont spend any of it
+
+	week 4:
+	we start this week with 3100 from week 3
+	2200 cap
+	we have 5300 to spend 
+	we buy our weapon for 3500
+	we have 1800 left to spend that could have been spent the previous week and used 
+	to make your character more effective
+	which means you could have won more games
+	which means you your rating could be higher
+
+
+	heres the smart version
+	week 3:
+	we start this week with the 900 from week 2
+	2200 cap
+	we have 3100 to spend
+	we buy a 1750 piece
+	we have 1300 left over
+
+
+	week 4:
+	we start this week with 1350 from week 3
+	2200 cap
+	3550 to spend on weapon that cost 3500
+
+You still get your item the same week but you had more opportunity to push rating before you got your weapons 
+and equal opportunity to push rating after you got your weapons
+
+catchup cap?
+
+this problem is a rephrasing of an old programing problem called the knapsack problem
+http://en.wikipedia.org/wiki/Knapsack_problem
+
+np-complete
+
+

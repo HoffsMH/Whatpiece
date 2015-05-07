@@ -1,0 +1,36 @@
+List of variables within the weekly purchase simulation loop
+
+STCurrent: the number of the week that the loop is currently in
+STCurrentV: the Season total earned in the week the loop is currently in
+
+Available: how much raw conquest points are available to purchase items with in the week the loop is 		currently in
+
+WeeklyCap: the conquest cap for the first week that has been given by the user to the program
+WeeklyEarned: the amount already earned out of previously mentioned cap
+
+Current: how much conquest points was available to the user to spend when the user consulted the program
+
+ItemTiers: Simply the number of useable nonzero elements in the Item array
+
+Item: array of item cost in acsending order
+
+$SupposedWeeklyRemainder:  now an array how much would remain if we bought the item that is currently being considered by the inner loop (Available - the cost of the current item)
+
+$AverageSavingWanted: how much conquest we want to save each week on average we want to get as close to this from either direction as possible while still falling below the weekly defict or surplus
+
+$LastWeekVariance: a positive or negative number not set until we know for sure what item if any is not being bought 
+
+$Afford: Boolean value Can we afford the current item that is being looked at
+
+$Fit: array with a number of elements equal to ItemType sorted in decsending order of which item gets closer to $AverageSavingsWanted in either direction.
+
+$Buying: integer value final decision on what is being bought. 0 for not buying anything
+
+pseudo code imagining
+for loop that starts with closest match after sorting
+	if we can afford it
+		if there is a last week variance and is its supposed weekly remainder  less than ($AverageSavingsWanted + weeklyVariance )
+
+
+how are we going to set Lastweek variance
+	Averagewanted - $Supposed
